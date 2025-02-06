@@ -1,6 +1,6 @@
 {
   "expo": {
-    "name": "to_do_list",
+    "name": "ToDo",
     "slug": "to_do_list",
     "version": "1.0.0",
     "orientation": "portrait",
@@ -16,6 +16,7 @@
       "supportsTablet": true
     },
     "android": {
+      "package": "com.sarvarbek.todoapp",
       "adaptiveIcon": {
         "foregroundImage": "./assets/adaptive-icon.png",
         "backgroundColor": "#ffffff"
@@ -23,6 +24,11 @@
     },
     "web": {
       "favicon": "./assets/favicon.png"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "8ed53930-c265-4637-a369-4b87a4143de8"
+      }
     }
   }
 }
